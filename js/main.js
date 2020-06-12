@@ -27,3 +27,12 @@ $('#navbar a').on('click',function(event){
   );
 }
 });
+
+$(document).ready(function(){
+    $(".check").click(function(){
+        $("#myCheck").prop("checked", true);
+    });
+    $(".uncheck").click(function(){
+        $("#myCheck").prop("checked", false);
+    });
+});
